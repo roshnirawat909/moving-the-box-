@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Gilory";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+.element {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.element h1 {
+    font-size: 6vw;
+    padding: 20px;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+
+.element img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20%;
+    position: absolute;
+    opacity: 0;
+}
